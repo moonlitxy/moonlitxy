@@ -57,7 +57,7 @@
 
     <!-- 脚线与版权行 -->
     <rect x="72" y="372" width="1056" height="1" fill="#0f0f0f" opacity="0.25"/>
-    <text x="72" y="396" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10" fill="#6d6a63" letter-spacing="3">GITHUB.COM/MOONLITXY</text>
-    <text x="1128" y="396" text-anchor="end" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10" fill="#6d6a63" letter-spacing="3">BUILT WITH GO &amp; ☕</text>
+    <text x="72" y="396" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10" fill="#6d6a63" letter-spacing="1">github.com/moonlitxy</text>
+    <text x="1128" y="396" text-anchor="end" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10" fill="#6d6a63" letter-spacing="1">yulx798@163.com</text>
   </g>
 </svg>
