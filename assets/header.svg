@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="240" viewBox="0 0 920 240" fill="none">
+  <defs>
+    <!-- 主渐变背景：深紫黑 → 深青蓝 -->
+    <linearGradient id="bg" x1="0" y1="0" x2="920" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0a0e1a"/>
+      <stop offset="0.4" stop-color="#0d1525"/>
+      <stop offset="0.75" stop-color="#101a2e"/>
+      <stop offset="1" stop-color="#0a1a2e"/>
+    </linearGradient>
+
+    <!-- 多色发光渐变球 1：青蓝 -->
+    <radialGradient id="orb1" cx="0.5" cy="0.5" r="0.5">
+      <stop stop-color="#00ADD8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#00ADD8" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- 发光球 2：紫 -->
+    <radialGradient id="orb2" cx="0.5" cy="0.5" r="0.5">
+      <stop stop-color="#7C5CFF" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- 发光球 3：粉 -->
+    <radialGradient id="orb3" cx="0.5" cy="0.5" r="0.5">
+      <stop stop-color="#FF4D8D" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#FF4D8D" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- 渐变文字：青→紫→粉 -->
+    <linearGradient id="gradText" x1="0" y1="0" x2="920" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00ADD8"/>
+      <stop offset="0.5" stop-color="#7C5CFF"/>
+      <stop offset="1" stop-color="#FF4D8D"/>
+    </linearGradient>
+
+    <!-- 底部渐变线 -->
+    <linearGradient id="accentLine" x1="0" y1="0" x2="920" y2="0">
+      <stop stop-color="#00ADD8" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#00ADD8"/>
+      <stop offset="0.5" stop-color="#7C5CFF"/>
+      <stop offset="0.8" stop-color="#FF4D8D"/>
+      <stop offset="1" stop-color="#FF4D8D" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- 顶部细线 -->
+    <linearGradient id="topLine" x1="0" y1="0" x2="920" y2="0">
+      <stop stop-color="#00ADD8" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00ADD8" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#FF4D8D" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="920" height="240" fill="url(#bg)"/>
+
+  <!-- 三个发光球，营造氛围 -->
+  <ellipse cx="120" cy="60" rx="180" ry="120" fill="url(#orb1)"/>
+  <ellipse cx="780" cy="200" rx="200" ry="140" fill="url(#orb2)"/>
+  <ellipse cx="500" cy="120" rx="160" ry="100" fill="url(#orb3)"/>
+
+  <!-- 顶部细线 -->
+  <rect x="0" y="0" width="920" height="1" fill="url(#topLine)"/>
+
+  <!-- 网格点阵装饰（左下） -->
+  <g fill="#e6edf3" opacity="0.06">
+    <circle cx="40" cy="200" r="1.5"/><circle cx="60" cy="200" r="1.5"/><circle cx="80" cy="200" r="1.5"/><circle cx="100" cy="200" r="1.5"/>
+    <circle cx="40" cy="180" r="1.5"/><circle cx="60" cy="180" r="1.5"/><circle cx="80" cy="180" r="1.5"/>
+    <circle cx="40" cy="160" r="1.5"/><circle cx="60" cy="160" r="1.5"/>
+  </g>
+
+  <!-- 右上几何线条装饰 -->
+  <g stroke="#00ADD8" stroke-width="0.8" opacity="0.25" fill="none">
+    <path d="M 820 30 L 880 30 L 880 90"/>
+    <path d="M 840 50 L 860 50 L 860 70"/>
+  </g>
+
+  <!-- kicker -->
+  <text x="80" y="72" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="4" fill="#00ADD8" opacity="0.85">// MOONLITXY · PROFILE</text>
+
+  <!-- 名字（渐变） -->
+  <text x="80" y="138" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="52" font-weight="700" fill="url(#gradText)" letter-spacing="1">moonlitxy</text>
+
+  <!-- tagline -->
+  <text x="82" y="170" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#8b949e" letter-spacing="0.5">Go 学长  ·  Backend Engineer  ·  用 Go 造轮子</text>
+
+  <!-- 右下角 GO 标记，带发光 -->
+  <g transform="translate(790,170)">
+    <rect x="0" y="0" width="64" height="44" rx="6" fill="none" stroke="url(#gradText)" stroke-width="1.2" opacity="0.7"/>
+    <text x="32" y="29" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="700" fill="url(#gradText)" text-anchor="middle" letter-spacing="2">GO</text>
+  </g>
+
+  <!-- 底部渐变线 -->
+  <rect x="0" y="239" width="920" height="1.5" fill="url(#accentLine)"/>
+</svg>

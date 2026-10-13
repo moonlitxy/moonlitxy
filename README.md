@@ -1,29 +1,19 @@
-<!-- header banner -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ADD8,100:0a0a0a&height=180&section=header&fontSize=0&animation=fadeIn&stroke=000000&strokeWidth=0" width="100%" alt="banner" />
-</div>
+<!-- ============ 方案2 · 彩色渐变现代风 ============ -->
 
-<!-- name + typing animation -->
+<!-- header banner (自制 SVG) -->
 <div align="center">
-  <a href="https://github.com/moonlitxy">
-    <img src="https://readme-typing-svg.demolab.com/?font=JetBrains%20Mono&size=28&duration=3000&pause=1000&color=00ADD8&center=true&vCenter=true&width=420&lines=moonlitxy;Go%E5%AD%A6%E9%95%BF;Backend+Engineer&letterSpacing=2" alt="typing" />
-  </a>
-</div>
-
-<!-- tagline -->
-<div align="center">
-  <sub>用 Go 造轮子 · 工具控 · 后端工程</sub>
+  <img src="assets/header.svg" width="100%" alt="moonlitxy banner" />
 </div>
 
 <br>
 
-<!-- stats row -->
+<!-- stats + streak 并排 -->
 <div align="center">
   <a href="https://github.com/moonlitxy">
-    <img height="160" src="https://github-readme-stats.vercel.app/api?username=moonlitxy&show_icons=true&hide_border=true&theme=transparent&icon_color=00ADD8&title_color=00ADD8&text_color=8b949e&bg_color=00000000" alt="stats" />
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=moonlitxy&show_icons=true&hide_border=true&count_private=true&theme=transparent&icon_color=00ADD8&title_color=00ADD8&text_color=8b949e&bg_color=0d1117" alt="github stats" />
   </a>
   <a href="https://github.com/moonlitxy">
-    <img height="160" src="https://streak-stats.demolab.com/?user=moonlitxy&hide_border=true&background=00000000&ring=00ADD8&fire=00ADD8&currStreakNum=8b949e&sideNums=8b949e&currStreakLabel=00ADD8&sideLabels=8b949e&dates=8b949e&disable_animations=false&border_radius=0" alt="streak" />
+    <img height="170" src="https://streak-stats.demolab.com/?user=moonlitxy&hide_border=true&background=0D1117&ring=00ADD8&fire=FF4D8D&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=00ADD8&sideLabels=7C5CFF&dates=8b949e&disable_animations=false&border_radius=12" alt="streak stats" />
   </a>
 </div>
 
@@ -32,36 +22,38 @@
 <!-- top languages -->
 <div align="center">
   <a href="https://github.com/moonlitxy">
-    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=moonlitxy&layout=compact&hide_border=true&theme=transparent&bg_color=00000000&title_color=00ADD8&text_color=8b949e&langs_count=6" alt="langs" />
+    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=moonlitxy&layout=compact&hide_border=true&theme=transparent&bg_color=0d1117&title_color=00ADD8&text_color=8b949e&langs_count=6&card_width=400" alt="top langs" />
   </a>
 </div>
 
 <br>
 
 <!-- projects -->
-<h3 align="center">─ Projects ─</h3>
+<h3 align="center">
+  <img src="https://img.shields.io/badge/─_PROJECTS_-00ADD8?style=flat-square&labelColor=0d1117&color=0d1117" />
+</h3>
 
 <table>
 <tr>
 <td align="center" width="33%">
 
-**[xTools](https://github.com/moonlitxy/xTools)**<br>
-<sub>Golang 工具包</sub><br>
-<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=ffffff" />
+<a href="https://github.com/moonlitxy/xTools">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=moonlitxy&repo=xTools&theme=transparent&hide_border=true&bg_color=0d1117&title_color=00ADD8&text_color=8b949e&icon_color=7C5CFF" alt="xTools" />
+</a>
 
 </td>
 <td align="center" width="33%">
 
-**[Termix](https://github.com/moonlitxy/Termix)**<br>
-<sub>开发连接工具</sub><br>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=ffffff" />
+<a href="https://github.com/moonlitxy/Termix">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=moonlitxy&repo=Termix&theme=transparent&hide_border=true&bg_color=0d1117&title_color=00ADD8&text_color=8b949e&icon_color=7C5CFF" alt="Termix" />
+</a>
 
 </td>
 <td align="center" width="33%">
 
-**[Blog_gin](https://github.com/moonlitxy/Blog_gin)**<br>
-<sub>gin 博客</sub><br>
-<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=ffffff" />
+<a href="https://github.com/moonlitxy/Blog_gin">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=moonlitxy&repo=Blog_gin&theme=transparent&hide_border=true&bg_color=0d1117&title_color=00ADD8&text_color=8b949e&icon_color=7C5CFF" alt="Blog_gin" />
+</a>
 
 </td>
 </tr>
@@ -69,27 +61,42 @@
 
 <br>
 
-<!-- tech badges -->
-<h3 align="center">─ Stack ─</h3>
+<!-- stack -->
+<h3 align="center">
+  <img src="https://img.shields.io/badge/─_STACK_-7C5CFF?style=flat-square&labelColor=0d1117&color=0d1117" />
+</h3>
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=fff" />
-<img src="https://img.shields.io/badge/Gin-008EC6?style=flat-square&logo=go&logoColor=fff" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=fff" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=fff" />
-<img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=fff" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=fff" />
+<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=fff&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Gin-00ADD8?style=flat-square&logo=go&logoColor=fff&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=fff&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=fff&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=fff&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=fff&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=fff&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=fff&labelColor=0d1117" />
 
 </div>
 
 <br>
 
-<!-- footer -->
+<!-- social -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,100:00ADD8&height=120&section=footer&fontSize=0&animation=fadeIn&stroke=000000&strokeWidth=0" width="100%" alt="footer" />
+  <a href="https://github.com/moonlitxy">
+    <img src="https://img.shields.io/badge/GitHub-moonlitxy-181717?style=flat-square&logo=github&logoColor=fff&labelColor=0d1117" />
+  </a>
+  <a href="https://juejin.cn">
+    <img src="https://img.shields.io/badge/掘金-moonlitxy-1E80FF?style=flat-square&logo=juejin&logoColor=fff&labelColor=0d1117" />
+  </a>
+  <a href="mailto:344754770@qq.com">
+    <img src="https://img.shields.io/badge/Email-344754770@qq.com-00ADD8?style=flat-square&logo=gmail&logoColor=fff&labelColor=0d1117" />
+  </a>
 </div>
 
+<br>
+
+<!-- footer banner (自制 SVG) -->
 <div align="center">
-  <sub>© moonlitxy · built with Go &amp; ☕</sub>
+  <img src="assets/footer.svg" width="100%" alt="footer" />
 </div>
