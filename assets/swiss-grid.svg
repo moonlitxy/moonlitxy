@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="moonlitxy — Go 学长，后端工程师">
+  <title>Lynx</title>
+  <desc>十二栏网格左置可见，单一强调色是唯一被允许打破黑白的东西。</desc>
+  <defs>
+    <!-- 十二条栏跨 1056 measure：72 边距，76 栏宽，12 间隙。
+         以 5.5% 绘制，让结构可读又不与文字争抢。 -->
+    <pattern id="sg-col" x="72" y="0" width="88" height="420" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="76" height="420" fill="#0f0f0f" opacity="0.055"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="420" fill="#f2f0eb"/>
+  <rect x="72" y="0" width="1056" height="420" fill="url(#sg-col)"/>
+
+  <!-- 基线。瑞士排版是双向网格。 -->
+  <g stroke="#0f0f0f" opacity="0.09">
+    <line x1="72" y1="72" x2="1128" y2="72"/>
+    <line x1="72" y1="156" x2="1128" y2="156"/>
+    <line x1="72" y1="240" x2="1128" y2="240"/>
+    <line x1="72" y1="324" x2="1128" y2="324"/>
+  </g>
+
+  <!-- 头条线，满栏宽，重。 -->
+  <rect x="72" y="42" width="1056" height="6" fill="#0f0f0f"/>
+
+  <g font-family="'Helvetica Neue', Helvetica, Arial, 'Inter', system-ui, sans-serif">
+    <!-- 运行头，第 1-4 栏与第 9-12 栏 -->
+    <text x="72" y="66" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10" fill="#6d6a63" letter-spacing="4">BACKEND ENGINEER</text>
+    <text x="1128" y="66" text-anchor="end" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10" fill="#6d6a63" letter-spacing="4">GO · MMXXIII—MMXXVI</text>
+
+    <!-- 名字：第 1–7 栏，坐落在 240 基线上。 -->
+    <text x="66" y="236" font-size="140" font-weight="700" fill="#0f0f0f" letter-spacing="-7">Ly</text>
+    <text x="204" y="236" font-size="140" font-weight="700" fill="#635BFF" letter-spacing="-7">nx</text>
+
+    <!-- 陈述：第 9–12 栏，齐右不齐左，顶对齐到 156 基线。 -->
+    <text x="864" y="106" font-size="17" font-weight="500" fill="#0f0f0f">代码能跑就行，别动。</text>
+    <rect x="864" y="128" width="264" height="4" fill="#635BFF"/>
+
+    <!-- 索引行，每条占三栏，坐落在 324 基线。 -->
+    <g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11">
+      <text x="72" y="290" fill="#6d6a63" letter-spacing="3">01</text>
+      <text x="72" y="312" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#0f0f0f">xTools</text>
+      <text x="72" y="334" fill="#6d6a63">golang · 工具包</text>
+
+      <text x="336" y="290" fill="#6d6a63" letter-spacing="3">02</text>
+      <text x="336" y="312" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#0f0f0f">Termix</text>
+      <text x="336" y="334" fill="#6d6a63">typescript · 连接工具</text>
+
+      <text x="600" y="290" fill="#6d6a63" letter-spacing="3">03</text>
+      <text x="600" y="312" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#0f0f0f">Blog_gin</text>
+      <text x="600" y="334" fill="#6d6a63">go · gin 博客</text>
+
+      <text x="864" y="290" fill="#6d6a63" letter-spacing="3">04</text>
+      <text x="864" y="312" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#0f0f0f">开源源码</text>
+      <text x="864" y="334" fill="#6d6a63">backend · cli · tools</text>
+    </g>
+
+    <!-- 脚线与版权行 -->
+    <rect x="72" y="372" width="1056" height="1" fill="#0f0f0f" opacity="0.25"/>
+    <text x="72" y="396" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10" fill="#6d6a63" letter-spacing="3">GITHUB.COM/MOONLITXY</text>
+    <text x="1128" y="396" text-anchor="end" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10" fill="#6d6a63" letter-spacing="3">BUILT WITH GO &amp; ☕</text>
+  </g>
+</svg>
